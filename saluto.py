@@ -1,1 +1,1 @@
-print (Mi chiamo Alessio Stomeo)
+print("Mi chiamo Alessio Stomeo")
