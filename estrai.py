@@ -16,7 +16,7 @@ for tr in table.contents[2:-1]:
         resi=int((tds[2]).get_text().replace(".",""))
         sigl=   (tds[7]).get_text()
         sup= int((tds[4]).get_text().replace(".",""))
-        den=float((tds[5]).get_text().replace(",",""))
+        den=float((tds[5]).get_text().replace(",","."))
         densita=resi/sup
         denfinale= round(densita, 1)
         if (denfinale==den):
